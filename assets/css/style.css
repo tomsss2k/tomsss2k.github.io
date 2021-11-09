@@ -708,7 +708,7 @@ footer{
 /* COOKIES START */
 .cookie-container {
     z-index: 3;
-    width: 50%;
+    width: 70%;
     margin:  0 auto;
     border-radius: 10px 10px 0px 0px;
     position: fixed;

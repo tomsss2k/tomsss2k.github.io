@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+	<title>Sparkle Heart</title>
+	<link rel="shortcut icon" type="image/jpg" href="assets/img/GoldenV2Logo 3.png"/>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<script src="https://kit.fontawesome.com/c2e65e0087.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+<!-- NAVBAR START -->
+	<nav class="navbar navbar-expand-xl bg-dark navbar-light">
+      	<ul class="navbar-nav mr-auto">
+	  		<li class="brand">
+	  			<a href="#" class="navbar-brand">
+   					<span class="d-lg-inline-block d-none">
+   						<img src="assets/img/BlackLogo 3.png" alt="Logo">
+   					</span>
+   					<i class="d-inline-block d-lg-none">
+   						<img id="logo" src="assets/img/BlackLogo 3.png" alt="Logo">
+   					</i>
+				</a>
+	  		</li>
+	  	</ul>
+  		<button 
+  			class="navbar-toggler btn-open-modal ml-auto" 
+  			type="button" 
+  			data-toggle="modal" 
+  			data-target="#modal-fullscreen-xl">
+    		<i class="fas fa-bars fa-lg"></i>
+  		</button>
+  		<div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+	  		<ul class="navbar-nav">
+	    		<li class="nav-item">
+	    	  		<a class="nav-link" href="#">Ideja</a>
+	    		</li>
+	    		<li class="nav-item">
+	    			<a class="nav-link" href="#">Piesaki Sapni</a>
+	    		</li>
+	    		<li class="nav-item">
+	    		  	<a class="nav-link" href="#">Uzņēmējiem</a>
+    			</li>
+    			<li class="nav-item">
+	    		  	<a class="nav-link" href="#">Sapņu banka</a>
+    			</li>
+    			<li class="nav-item">
+	    		  	<a class="nav-link" href="#">Sapņus atbalsta</a>
+    			</li>
+    			<li class="nav-item">
+	    		  	<a class="nav-link" href="#">99 Iedvesmas stāsti</a>
+    			</li>
+	  		</ul>
+	  		<ul class="navbar-nav">
+	  			<li class="valoda">
+	  				<a class="nav-link valoda" href="#">LV</a>
+	  			</li>
+	  		</ul>
+  		</div>
+	</nav>
+<!-- NAVBAR END  -->
+
+<!-- MODAL -->
+	<div 
+	class="modal modal-fullscreen-xl" 
+	id="modal-fullscreen-xl" 
+	tabindex="-1" 
+	role="dialog" 
+	aria-hidden="true">
+  		<div class="modal-dialog" role="document">
+  		  	<div class="modal-content">
+  		  		<div class="modal-header">
+  		  			<div>
+   							<span>
+   								<img class="moblogo" src="assets/img/BlackLogo 3.png" alt="Logo">
+   							</span>
+							</div>
+  		  			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  		        		<i class="fas fa-times"></i>
+  		      		</button>
+  		  		</div>
+  		    	<div class="modal-body">
+  		    		
+
+					<div class="row">
+						<div class="col-4 valodamob">
+							<a href="">
+								<p class="val-text text-center">LV</p>
+							</a>
+						</div>
+						<div class="col-4 valodamob">
+							<a href="">
+								<p class="val-text text-center">EN</p>
+							</a>
+						</div>
+						<div class="col-4 valodamob">
+							<a href="">
+								<p class="val-text text-center">RU</p>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center moddiv">
+							<a class="modtext" href="#">Ideja</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center moddiv">
+							<a class="modtext" href="#">Piesaki Sapni</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center moddiv">
+							<a class="modtext" href="#">Uzņēmējiem</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center moddiv">
+							<a class="modtext" href="#">Sapņu banka</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center moddiv">
+							<a class="modtext" href="#">Sapņus atbalsta</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center moddiv">
+							<a class="modtext" href="#">99 Iedvesmas stāsti</a>
+						</div>
+					</div>
+				</div>
+  		    </div>
+  		</div>
+  	</div>
+<!-- MODAL END -->
+
+	<div>
+		<img class="naveffect" src="assets/img/ripped 6 7.png" alt="Effekts1">
+	</div>
+	<div>
+		<img class="sparkle_video" src="assets/img/Sparkle Video 1.png" alt="sparkle_video">
+	</div>
+
+	<div class="text-about-sparkle">
+		<p>
+			SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.
+		</p>
+	</div>
+
+<!-- BILZU ROW START -->
+	<div>
+   		<span class="d-lg-inline-block d-none ">
+   			<img id="pirmatop" src="assets/img/ripped 6 7.png" alt="Logo">
+   		</span>
+   		<i class="d-inline-block d-lg-none otra">
+   			<img id="otratop" src="assets/img/ripped 6 7.png" alt="Log">
+   		</i>
+	</div>
+
+	<div class="row bildes">
+		<div class="col-md-3 col-sm-6 col-6">
+			<img class="bilvert" src="assets/img/Zanda_1.jpg" alt="Zanda_1">
+		</div>
+	
+		<div class="col-md-3 col-sm-6 col-6">
+			<img class="bilvert" src="assets/img/Sibilla_4.jpg" alt="Sibilla_4">
+		</div>
+
+		<div class="col-md-3 col-sm-6 col-6">
+			<img class="bilhor" src="assets/img/Brinuma_meita-15.jpg" alt="Brinuma_meita-15">
+			<img class="bilhor" src="assets/img/Alina_1 1.jpg" alt="Alina_1 1">
+		</div>
+
+		<div class="col-md-3 col-sm-6 col-6">
+			<img class="bilvert" src="assets/img/Anda_2 1.jpg" alt="Anda_2 1">
+		</div>
+	</div>
+
+	<div class="botu">
+   		<span class="d-lg-inline-block d-none ">
+   			<img id="pirmabot" src="assets/img/ripped 6 9.png" alt="Logo">
+   		</span>
+   		<i class="d-inline-block d-lg-none otra">
+   			<img id="otrabot" src="assets/img/ripped 6 9.png" alt="Log">
+   		</i>
+	</div>
+<!-- BILZU ROW END -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 text-center">
+				<p class="pieteikumi">
+					VĒLIES PIEPILDĪT SAVU SAPNI?
+				</p>
+				<div class="d-flex justify-content-center">
+					<button type="button" class="btn btn-primary">Sapņotājiem</button>
+				</div>
+			</div>
+			<div class="col-lg-6 text-center">
+				<p class="pieteikumi">
+					VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?
+				</p>
+				<div class="d-flex justify-content-center">
+					<button type="button" class="btn btn-primary">Uzņēmējiem</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col d-flex justify-content-center">
+			<div class="text-sazinies">
+				<p>
+					SAZINĀTIES AR MUMS
+				</p>
+			</div>
+		</div>
+	</div>
+
+<!-- INPUT START -->
+	<div class="container">
+  		<form action="">
+    		<div class="form-group">
+    			<div class="row">
+    				<div class="col-lg-6 vardsuzvards">
+						<input type="text" class="form-control" id="name" name="fullname" placeholder="Vārds, Uzvārds*">
+    	  			</div>
+    	  			<div class="col-lg-6 vardsuzvards" >
+    	  				<input type="text" class="form-control" id="eml" name="email" placeholder="E-pasts*">
+    	  			</div>
+    			</div>
+    		</div>
+    		<div class="form-group">
+    	  		<div class="row">
+    				<div class="col-lg-12">
+						<input type="text" class="form-control" id="tel" name="telefons" placeholder="Telefons*">
+    	  			</div>
+    			</div>
+    		</div>
+    		<div class="form-group">
+    	  		<div class="row">
+    					<div class="col-lg-12">
+								<textarea class="form-control" rows="10" placeholder="Jautājumi vai komentāri*"></textarea>
+    	  			</div>
+    			</div>
+    		</div>
+    		<div class="col-lg-12">
+    			<div>
+					<p class="datu_izmantosana">
+						*obligāti aizpildāmie lauki
+					</p>
+				</div>
+
+				<div class="form-check">
+  					<label class="form-check-label">
+    					<input type="checkbox" class="form-check-input" value=""><p class="datu_izmantosana">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>
+  					</label>
+				</div>
+			</div>
+    		<div class="d-flex justify-content-center">
+				<button type="button" class="btn btn-primary">Sūtīt</button>
+			</div>
+  		</form>
+	</div>
+<!-- INPUT END -->
+
+<!-- ATBALSTITAJI START -->
+	<div>
+   		<span class="d-lg-inline-block d-none ">
+   			<img id="pirmatop" src="assets/img/ripped 6 7.png" alt="Logo">
+   		</span>
+   		<i class="d-inline-block d-lg-none otra">
+   			<img id="otratop" src="assets/img/ripped 6 7.png" alt="Log">
+   		</i>
+	</div>
+
+	<div class="atbalstitaji">
+		<div class="row">
+			<div class="col d-flex justify-content-center">
+				<div class="text-atbalstitaji">
+					<p>
+						ATBALSTĪTĀJI
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-lg-3 col-sm-6 col-12">
+				<img class="logos" src="assets/img/getlogo 1.png" alt="Teikums_logo">
+			</div>
+		
+			<div class="col-lg-3 col-sm-6 col-12">
+				<img class="logos" src="assets/img/sem_logo-2 1.png" alt="SEM_logo">
+			</div>
+	
+			<div class="col-lg-3 col-sm-6 col-12">
+				<img class="logos" src="assets/img/Citybee-logo 1.png" alt="Citybee_logo">
+			</div>
+			<div class="col-lg-3 col-sm-6 col-12">
+				<img class="logos" src="assets/img/logo1 1.png" alt="Linearts_logo">
+			</div>
+		</div>
+	</div>
+	<div class="botuatb">
+   		<span class="d-lg-block">
+   			<img id="atbbot" src="assets/img/Union2.png" alt="Logo">
+   		</span>
+   		<i class="d-lg-none otra">
+   			<img id="atbotr" src="assets/img/Union2.png" alt="Log">
+   		</i>
+	</div>
+<!-- ATBALSTITAJI END -->
+
+
+<!-- FOOTER DESKTOP -->
+	<footer class="d-none d-lg-block d-xl-block">
+		<div class="row">
+  		<div class="col-3 text-center footertext-desk">
+  			<div class="footerlogo">
+  				<img class="footerlogo" src="assets/img/GoldenV2Logo 3.png" alt="Sparkle video">
+  			</div>
+				
+  		</div>
+  		<div class="col-3 footertext-desk text-left" >
+  			<p><a class="footertext-desk" href="#">Ideja</a></p>
+  			<p><a class="footertext-desk" href="#">Piesaki Sapni</a></p>
+  			<p><a class="footertext-desk" href="#">Uzņēmējiem</a></p>
+  			<p><a class="footertext-desk" href="#">Sapņu banka</a></p>
+  			<p><a class="footertext-desk" href="#">Sapņus atbalsta</a></p>
+  			<p><a class="footertext-desk" href="#">Iedvesmas stāsti</a></p>
+  		</div>
+  		<div class="col-3 footertext-desk">
+  			<p>Biedrība SparkleHeart</p>
+  			<p>Reģistrācijas nr. 40008293119</p>
+  			<p>Banka: SWEDBANK A/S</p>
+  			<p>LV52HABA0551047652465</p>
+  		</div>
+  		<div class="col-3 text-right">
+  			<p class="kontaktinfo-text-desk-jur">Juris Gogulis</p>
+  			<p class="kontaktinfo-text-desk">juris.gogulis@&#8203;sparkleheart.org</p>
+  			<p class="kontaktinfo-text-desk">+37126890034</p>
+  			<p class="kontaktinfo-text-desk">Biķernieku iela 24a - 5, LV-1006</p>
+  			
+  				<a href="#">
+  					<i class="fab fa-facebook-f fa-3x"></i>
+  				</a>
+					<a href="#">
+  					<i class="fab fa-instagram fa-3x instafa"></i>
+  				</a>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="col-lg-6 col-sm-6 col-6">
+  			<p class="tiesibas-text-desk">
+  				© SparkleHeart 2020. Visas tiesības aizsargātas.
+  			</p>
+  		</div>
+  		<div class="col-lg-6 col-sm-6 col-6">
+  			<a href="#">
+  				<p class="kontaktinfo-text-desk-priv text-right">Privātuma politika</p>
+  			</a>
+  		</div>
+  		</div>
+	</footer>
+<!-- FOOTER DESKTOP END -->
+
+<!-- FOOTER TABLET -->
+	<footer class="d-none d-md-block d-lg-none">
+		<div class="row">
+  		<div class="col-lg-6 col-6 text-center footertext-tab">
+  				<img class="footerlogo-tablet" src="assets/img/GoldenV2Logo 3.png" alt="Sparkle video">
+  		</div>
+  		<div class="col-lg-6 col-6 text-right footertext-tab-right">
+  			<p>juris.gogulis@sparkleheart.org</p>
+  			<p>+37126890034</p>
+  			<p>Biķernieku iela 24a - 5, LV-1006</p>
+  			<p><a href="#" class="rekviziti-tab">Skatīt rekvizītus</a></p>
+  		</div>
+  	</div>
+
+  	<div class="row">
+  		<div class="col-lg-8 col-8 text-left footertext-tab">
+  	  	<p class="juris">Juris Gogulis</p>
+				<p class="tiesibas">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>		
+  		</div>
+  		<div class="col-lg-4 col-4 text-right">
+  			<p class="social-media">
+  				<a href="#">
+  					<i class="fab fa-facebook-f fa-2x"></i>
+  				</a>
+					<a href="#">
+  					<i class="fab fa-instagram fa-2x"></i>
+  				</a>
+  			</p>
+  			<a href="#">
+  				<p class="kontaktinfo-text-tab">Privātuma politika</p>
+  			</a>
+  			
+  		</div>
+  	</div>
+	</footer>
+<!-- FOOTER TABLET END -->
+
+<!-- FOOTER MOBILE -->
+	<footer class="d-block d-none d-sm-block d-md-none">
+		<div class="row">
+  		<div class="col-sm-12 col-12 text-left footertext-mob">
+
+  			<p>Juris Gogulis</p>
+  		</div>
+  		<div class="col-sm-12 col-12 text-left kontaktinfo-text-mob">
+  			
+  			<p>juris.gogulis@sparkleheart.org</p>
+  			<p>+37126890034</p>
+  			<p>Biķernieku iela 24a - 5, LV-1006</p>
+  			<p><a href="#" class="rekviziti">Skatīt rekvizītus</a></p>
+  			<p>
+  				<a href="#">
+  					<i class="fab fa-facebook-f fa-3x"></i>
+  				</a>
+  				<a href="#">
+  					<i class="fab fa-instagram fa-3x"></i>
+  				</a>
+  			</p>
+  						
+  			<p class="kontaktinfo-text-mob">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+  			<p class="kontaktinfo-text-mob">Privātuma politika</p>
+  		</div>
+  	</div>
+	</footer>
+<!-- FOOTER MOBILE END -->
+
+
+	<div id="cookies">
+		<span id="footer_span" class="d-xl-inline-block d-none">
+			<div class="col-8 cookie-container d-flex justify-content-center">
+		  	<p class=" cookie-text ">
+		   		Mēs apkopojam un apstradājām Jūsu personisko informāciju šādiem mērķiem: Analīze. <a class="uzzvair-cookies" href="">Uzzināt vairāk</a>
+		  	</p>
+	
+				<div class="col-lg-2">
+					<button class="cookie-btn d-flex justify-content-center">
+		  	    Apstiprināt
+		  	  </button>
+				</div>
+		
+				<div class="col-lg-2">
+					<button onclick="myFunction()" class="cookie-btn-close d-flex justify-content-center">
+		  	    Noraidīt
+		  	  </button>
+				</div>
+	
+			</div>
+		</span>
+	</div>
+<span>
+	<button class="scrollToTopBtn"><i class="fas fa-chevron-up"></i></button>
+</span>	  
+
+<script src="assets/js/theme.js"></script>
+</body>
+
+</html>

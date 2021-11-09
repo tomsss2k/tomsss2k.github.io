@@ -708,7 +708,7 @@ footer{
 /* COOKIES START */
 .cookie-container {
     z-index: 3;
-    width: 80%;
+    width: 50%;
     margin:  0 auto;
     border-radius: 10px 10px 0px 0px;
     position: fixed;
@@ -742,7 +742,7 @@ footer{
 
 }
 .col-lg-2{
-   top: 16px;
+   top: 8px;
 }
 
 .col-lg-2 .cookie-btn {

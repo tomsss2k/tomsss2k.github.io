@@ -1,6 +1,7 @@
 # tomsss2k.github.io
 
 
-Lietas kas neizdevās:
-  - Cookies aizveršanas poga
-  - Ideeāls bilžu lielums lapā
+Lietas kas neizdevās pēc dizaina:
+  - Cookies pogu novietojums;
+  - Cookies aizveršanas poga;
+  - Ideeāls bilžu lielums lapā;

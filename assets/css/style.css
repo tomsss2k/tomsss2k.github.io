@@ -741,11 +741,11 @@ footer{
     letter-spacing: 0em;
 
 }
-.col-lg-2{
-   top: 8px;
+.col-lg-3{
+   top: 13px;
 }
 
-.col-lg-2 .cookie-btn {
+.col-lg-3 .cookie-btn {
     background: #FFA800;
     border: none;
     border-radius: 19px !important;
@@ -759,7 +759,7 @@ footer{
     cursor: pointer;
 }
 
-.col-lg-2 .cookie-btn-close {
+.col-lg-3 .cookie-btn-close {
     background: #FFF;
     border: none;
     border-radius: 19px !important;
